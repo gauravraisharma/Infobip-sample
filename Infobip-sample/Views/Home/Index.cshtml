@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">SMS Service</h5>
+                    <p class="card-text">Send SMS using Infobip integration.</p>
+                    <a href="@Url.Action("SMS", "MessageBoard")" class="btn btn-primary">Go to SMS</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">WhatsApp Service</h5>
+                    <p class="card-text">Communicate via WhatsApp through Infobip.</p>
+                    <a href="@Url.Action("Whatsapp", "MessageBoard")" class="btn btn-success">Go to WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

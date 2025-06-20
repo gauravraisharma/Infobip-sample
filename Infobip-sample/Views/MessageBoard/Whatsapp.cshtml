@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Send WhatsApp Message";
+}
+
+<h2 class="mb-4">Send WhatsApp Message</h2>
+
+@if (TempData["Status"] != null)
+{
+    <div class="alert @TempData["StatusClass"]" role="alert">
+        @TempData["Status"]
+    </div>
+}
+
+<form asp-action="WhatsApp" method="post" class="card p-4 shadow-sm">
+    <div class="mb-3">
+        <label for="recipient" class="form-label">Recipient Number</label>
+        <input type="text" class="form-control" id="recipient" name="recipient" placeholder="+1234567890" required />
+    </div>
+    <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Send WhatsApp</button>
+</form>

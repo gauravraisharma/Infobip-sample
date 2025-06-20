@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infobip-sample", "Infobip-sample\Infobip-sample.csproj", "{DA2835D7-D026-4403-8AA5-1F5837166204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{BF167841-4E05-4F93-8705-21AEB2886633}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA2835D7-D026-4403-8AA5-1F5837166204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2835D7-D026-4403-8AA5-1F5837166204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2835D7-D026-4403-8AA5-1F5837166204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2835D7-D026-4403-8AA5-1F5837166204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF167841-4E05-4F93-8705-21AEB2886633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF167841-4E05-4F93-8705-21AEB2886633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF167841-4E05-4F93-8705-21AEB2886633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF167841-4E05-4F93-8705-21AEB2886633}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
